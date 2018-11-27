@@ -1,0 +1,33 @@
+{
+  "name": "react-hook-use-resize-observer",
+  "version": "1.0.0",
+  "description": "React hook to track Resize Observer changes",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorfern91/react-hook-use-resize-observer.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "resize",
+    "observer"
+  ],
+  "author": "Victor Fernandes <victorfern91@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorfern91/react-hook-use-resize-observer/issues"
+  },
+  "homepage": "https://github.com/victorfern91/react-hook-use-resize-observer#readme",
+  "devDependencies": {
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel-minify": "^6.1.1"
+  },
+  "dependencies": {
+    "resize-observer-polyfill": "^1.5.0"
+  }
+}
